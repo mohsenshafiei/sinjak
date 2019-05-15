@@ -4,6 +4,8 @@
   "description": "sinjak backend project",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/server",
+    "start": "node src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,6 +13,16 @@
     "backend",
     "repository"
   ],
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.12",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
+  },
   "author": "sinjak group",
   "license": "SEE LICENSE IN LICENSE.md"
 }
